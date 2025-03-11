@@ -30,6 +30,8 @@ DayPart - enum(
 
 And rows with errors in should be not included in the parquet files, but warnings should be created for each failing row
 
+Please include some timing information in the console output
+
 2. Repeat with the 2nd CSV file
 
 3. Add to the script the distinct set of browser type and versions in the dataset
